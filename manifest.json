@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Hello World",
+  "version": "0.1.0",
+  "description": "My simple Chrome Extension.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "src/js/hello.js"
+  },
+  "action": {},
+  "icons": {
+    "16": "src/img/icon@16.png",
+    "48": "src/img/icon@48.png",
+    "128": "src/img/icon@128.png"
+  },
+  "author": "danishi"
+}
