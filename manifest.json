@@ -3,6 +3,7 @@
   "name": "Hello World",
   "version": "0.1.0",
   "description": "My simple Chrome Extension.",
+  "default_locale": "en",
   "permissions": [
     "activeTab",
     "scripting"
